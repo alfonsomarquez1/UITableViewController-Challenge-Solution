@@ -1,5 +1,5 @@
 //
-//  SCMViewController.h
+//  SCMTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Luis Alfonso Marquez Lecona on 8/29/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SCMViewController : UIViewController
+@interface SCMTableViewController : UITableViewController
+
+@property (strong, nonatomic) IBOutlet UITableView *tableVIew;
 
 @end
